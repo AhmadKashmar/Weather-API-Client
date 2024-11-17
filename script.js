@@ -74,6 +74,7 @@ async function fetchCities(page) {
 		clearMessages();
 	} catch (error) {
 		console.error(error);
+		displayMessage("");
 		displayError("Failed to load cities. Please try again later.");
 	}
 }
@@ -121,6 +122,7 @@ async function fetchWeather(cityName) {
 		displayWeather(data);
 	} catch (error) {
 		console.error(error);
+		displayMessage("");
 		displayError(
 			error.message || "Failed to fetch weather data. Please try again later."
 		);
