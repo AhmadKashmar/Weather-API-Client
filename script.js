@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5203/api";
+const API_BASE_URL = "https://openweathermapapi.azurewebsites.net/api";
 
 const citySelect = document.getElementById("citySelect");
 const getWeatherBtn = document.getElementById("getWeatherBtn");
