@@ -1,4 +1,5 @@
-const API_BASE_URL = "https://openweathermapapi.azurewebsites.net/api";
+const API_BASE_URL =
+	"https://openweathermapapi-ckdvgggwa9habehe.canadacentral-01.azurewebsites.net/api";
 
 const citySelect = document.getElementById("citySelect");
 const getWeatherBtn = document.getElementById("getWeatherBtn");
